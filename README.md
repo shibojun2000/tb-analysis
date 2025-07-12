@@ -19,7 +19,7 @@ This project for Data Analysis Project course CIND820 with TMU explores global t
 📁 TB_Project/
 │
 ├── 📄 README.md                 # Project summary and structure (this file)
-├── 📄 tb_eda_Report.html           # Automatically generated exploratory data analysis report
+├── 📄 tb_eda_Report.html        # Automatically generated exploratory data analysis report
 ├── 📄 Tuberculosis_Trends.csv   # TB dataset used in the analysis
 ├── 📄 CIND820_PROJECT.ipynb     # Codes and analysis on google colab
 
