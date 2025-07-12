@@ -1,7 +1,7 @@
 
 # 🧪 Global Tuberculosis Data Analysis Project
 
-This project explores global trends and predictors of Tuberculosis (TB) from 2000 to 2024, using a dataset compiled from Kaggle. The analysis aims to answer three primary research questions related to TB incidence, mortality, and its relationship with socioeconomic and health indicators.
+This project for Data Analysis Project course CIND820 with TMU explores global trends and predictors of Tuberculosis (TB) from 2000 to 2024, using a dataset compiled from Kaggle. The analysis aims to answer three primary research questions related to TB incidence, mortality, and its relationship with socioeconomic and health indicators.
 
 ---
 
@@ -18,13 +18,11 @@ This project explores global trends and predictors of Tuberculosis (TB) from 200
 ```
 📁 TB_Project/
 │
-├── 📄 README.md             # Project summary and structure (this file)
-├── 📄 EDA_Report.html       # Automatically generated exploratory data analysis report
-├── 📄 tb_data.csv           # TB dataset used in the analysis
-├── 📄 RQ1_Trend_Analysis.ipynb  # Linear regression & ANOVA for temporal trends
-├── 📄 RQ2_Predictors.ipynb      # Regression model for identifying key predictors
-├── 📄 RQ3_BCG_Model.ipynb       # Model testing BCG vaccination impact
-├── 📄 results_summary.txt       # Summary of findings from each model
+├── 📄 README.md                 # Project summary and structure (this file)
+├── 📄 tb_eda_Report.html           # Automatically generated exploratory data analysis report
+├── 📄 Tuberculosis_Trends.csv   # TB dataset used in the analysis
+├── 📄 CIND820_PROJECT.ipynb     # Codes and analysis on google colab
+
 ```
 
 ---
@@ -43,7 +41,7 @@ This project explores global trends and predictors of Tuberculosis (TB) from 200
    - **RQ3:** Regression analysis controlling for multiple factors to assess BCG effectiveness.
 
 4. **Evaluation**
-   - Use R-squared, p-values, and AIC to evaluate model fit and significance.
+   - Use R-squared, p-values to evaluate model fit and significance.
    - Visualizations for trends and comparisons.
 
 5. **Reporting**
@@ -55,7 +53,7 @@ This project explores global trends and predictors of Tuberculosis (TB) from 200
 ## 🛠️ Tools & Libraries Used
 
 - Python (Pandas, NumPy, Seaborn, Scikit-learn, Statsmodels)
-- Google Colab / Jupyter Notebook
+- Google Colab 
 - ydata-profiling for EDA report
 - GitHub for version control and sharing
 
@@ -63,12 +61,10 @@ This project explores global trends and predictors of Tuberculosis (TB) from 200
 
 ## 🧠 Limitations
 
-- Lack of age-specific or longitudinal individual-level data.
+- Lack of age-specific or gender-specific individual-level data.
 - Models assume linearity; more complex methods could improve insights.
-- Potential multicollinearity between socioeconomic indicators.
+- The dataset is synthetic and may not represent the actual world.
 
 ---
 
-## 📬 Contact
 
-For questions, feel free to reach out via GitHub Issues or email [your-email@example.com].
